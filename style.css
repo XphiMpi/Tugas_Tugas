@@ -16,7 +16,6 @@ body {
     position: relative;
 }
 
-/* BACKGROUND NEON */
 body::before {
     content: "";
     position: fixed;
@@ -43,7 +42,6 @@ body::after {
     z-index: -1;
 }
 
-/* FORM CONTAINER */
 .form-container {
     width: 100%;
     max-width: 430px;
@@ -62,7 +60,6 @@ body::after {
     animation: fadeIn 0.8s ease;
 }
 
-/* NEON STRIP */
 .form-container::before {
     content: "";
     position: absolute;
@@ -81,7 +78,6 @@ body::after {
     box-shadow: 0 0 15px #008cff;
 }
 
-/* HEADER */
 .form-header {
     text-align: center;
     margin-bottom: 30px;
@@ -99,7 +95,6 @@ body::after {
     font-size: 14px;
 }
 
-/* INPUT GROUP */
 .input-group {
     margin-bottom: 20px;
 }
@@ -133,7 +128,6 @@ body::after {
     background: #0b1728;
 }
 
-/* BUTTON */
 .btn-submit {
     width: 100%;
     padding: 14px;
@@ -159,7 +153,6 @@ body::after {
     transform: scale(0.98);
 }
 
-/* FOOTER */
 .form-footer {
     text-align: center;
     margin-top: 25px;
@@ -182,7 +175,6 @@ body::after {
     text-shadow: 0 0 8px #009dff;
 }
 
-/* ANIMATION */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -194,7 +186,6 @@ body::after {
     }
 }
 
-/* RESPONSIVE */
 @media (max-width: 480px) {
     .form-container {
         padding: 25px 20px;
