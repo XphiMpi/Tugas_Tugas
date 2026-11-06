@@ -23,7 +23,7 @@ registerForm.addEventListener("submit", function (event) {
     return;
   }
 
-  alert("Registrasi berhasil!\n\n" + "Selamat datang, " + nama + "!");
+  alert("Registrasi berhasil!\n\n" + "Selamat datang, " + nama + " !");
 
   registerForm.reset();
 });
